@@ -1,0 +1,6 @@
+{
+  "name": "TDI - Tarjeta Digital Inteligente",
+  "description": "Aplicación web oficial para Tarjeta Digital Inteligente con asistente virtual Pulpo, visualización de Carrusel 3D según plan y registro de tarjetas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
