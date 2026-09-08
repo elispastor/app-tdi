@@ -447,10 +447,11 @@ export async function generarTarjetaAPI(data: {
         source: 'local'
       };
     } else {
-      // Fallback local si GitHub falla
-      const currentOrigin = window.location.origin;
+      // Fallback local con enlace de GitHub Pages
+      const nombreSlug = data.nombre.toLowerCase().replace(/\s+/g, '-');
+      const enlaceLocal = `https://elispastor.github.io/AGENTE/tarjetas/${nombreSlug}.html`;
       return {
-        enlace: `${currentOrigin}/#tarjeta-${fallbackId}`,
+        enlace: enlaceLocal,
         id: fallbackId,
         success: true,
         source: 'local'
@@ -458,10 +459,11 @@ export async function generarTarjetaAPI(data: {
     }
   } catch (error) {
     console.error('Error en generarTarjetaAPI:', error);
-    // Fallback local
-    const currentOrigin = window.location.origin;
+    // Fallback local con enlace de GitHub Pages
+    const nombreSlug = data.nombre.toLowerCase().replace(/\s+/g, '-');
+    const enlaceLocal = `https://elispastor.github.io/AGENTE/tarjetas/${nombreSlug}.html`;
     return {
-      enlace: `${currentOrigin}/#tarjeta-${fallbackId}`,
+      enlace: enlaceLocal,
       id: fallbackId,
       success: true,
       source: 'local'
