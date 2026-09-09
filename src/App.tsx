@@ -147,7 +147,7 @@ export default function App() {
           </div>
           <div className="hidden sm:block text-left">
             <span className="text-[10px] text-[#FBBF24] font-bold block uppercase tracking-wider">
-              Asistente TDI
+              Asistente Guía Digital
             </span>
             <span className="text-xs font-extrabold text-white flex items-center gap-1">
               Pulpo IA 🐙
@@ -164,15 +164,15 @@ export default function App() {
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-lg bg-gradient-to-r from-[#FF8C00] to-[#FBBF24] p-0.5">
                 <div className="w-full h-full bg-[#0B2B40] rounded-[6px] flex items-center justify-center font-bold text-xs text-[#FBBF24]">
-                  TDI
+                  GD
                 </div>
               </div>
               <div>
                 <span className="font-heading font-extrabold text-sm text-white block">
-                  TDI • Tarjeta Digital Inteligente
+                  Guía Digital de Cúcuta
                 </span>
                 <span className="text-[11px] text-slate-400">
-                  Impulsado por Guía Digital Cúcuta y Servidor en Render
+                  Impulsado por Guía Digital de Cúcuta
                 </span>
               </div>
             </div>
@@ -188,12 +188,12 @@ export default function App() {
                 <span>Pulpo 🐙</span>
               </button>
               <button onClick={() => setIsSettingsOpen(true)} className="hover:text-white">
-                Servidor Render
+                Servidor
               </button>
             </div>
 
             <div className="text-center md:text-right text-[11px] text-slate-400">
-              <span>Tecnología Firebase + Render Starter Tier</span>
+              <span>Tecnología Firebase</span>
             </div>
 
           </div>
