@@ -34,9 +34,7 @@ export const HomeHero: React.FC<HomeHeroProps> = ({
               </span>
             </div>
 
-            <h1 className="font-heading font-black text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight leading-[1.1]">
-              Tu Presencia Digital al Siguiente Nivel con <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF8C00] via-[#FBBF24] to-[#FF8C00]">Tarjeta Digital Inteligente</span>
-            </h1>
+            h1 className="f
 
             <p className="text-slate-300 text-base sm:text-lg max-w-2xl leading-relaxed">
               Conéctate instantáneamente con clientes, muestra tus productos en un <strong>Carrusel 3D interactivo</strong> y aprovecha la atención 24/7 de nuestro <strong>Agente Pulpo 🐙</strong> alojado en Render.
